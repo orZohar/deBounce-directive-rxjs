@@ -1,0 +1,9 @@
+<input DoDebounce type="text" class="form-control" (throttling)="search($event)">
+
+<div *ngFor="let item of list; index as i;">
+  {{item.id}}
+  {{item.description}}
+  {{item.group}}
+  {{item.title}}
+  {{item.when}}
+</div>
